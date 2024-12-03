@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homesani.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>PSAS Pemograman WEB</title>
+</head>
+<body>
+
+<!--navgaition menu-->
+<nav>
+    <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            Zandrai<span>Sani</span>
+        </div>
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="homesani.html" class="active">Home</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="tentang.html">About</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="sekolah.html">Riwayat Pendidikan</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="ekskul.html">Riwayat Organisasi</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="kontak.html">Kontak</a></div>
+            <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="portofolio.html">Portofolio</a></div>
+        </div>
+    </div>
+    <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    <div class="dropdown">
+        <div class="links">
+            <a href="homesani.html" class="active">Home</a>
+            <a href="tentang.html">About</a>
+            <a href="sekolah.html">Riwayat Pendidikan</a>
+            <a href="ekskul.html">Riwayat Organisasi</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="portofolio.html">Portofolio</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+</nav>
+
+<section class="portofolio">
+    <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="550" class="heading"><span class="bounce-text">Portofolio </span> Saya</h1>
+    <div class="portofolio-container">
+        <div class="portofolio-box">
+            <div class="portofolio-detail active">
+                <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="650" class="no">01</p>
+                <h3 data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="700">Game Development</h3>
+                <p data-aos="flip-down" data-aos-duration="1700" data-aos-delay="750">Membuat game dengan menggunakan aplikasi GDevelop 5 untuk penilaian projeck pada saat kelas 9 SMP</p>
+                <div class="apk" data-aos="flip-down" data-aos-duration="1700" data-aos-delay="750">
+                    <p>GDevelop 5</p>
+                </div>
+            </div>
+
+            <div class="portofolio-detail">
+                <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="650" class="no">02</p>
+                <h3>Web Mobile</h3>
+                <p data-aos="flip-down" data-aos-duration="1700" data-aos-delay="750">Membuat Website mobile dengan menggunakan aplikasi MIT App Inventor untuk memenuhi tugas pada saat kelas 8 SMP</p>
+                <div class="apk" data-aos="flip-down" data-aos-duration="1700" data-aos-delay="750">
+                    <p>MIT App Inventor</p>
+                </div>
+            </div>
+
+            <div class="portofolio-detail">
+                <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="650" class="no">03</p>
+                <h3>Turnament Basket</h3>
+                <p data-aos="flip-down" data-aos-duration="1900" data-aos-delay="750">Mengikuti perlombaan olahraga basket antar sekolah saat SMK</p>
+                <div class="apk" data-aos="flip-down" data-aos-duration="1700" data-aos-delay="750">
+                    <p>Turnament Basket</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="portofolio-box">
+            <div class="portofolio-carousel" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="800">
+                <div class="video-slide">
+                    <div class="video-item">
+                        <video controls>
+                            <source src="gdevelop5.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-item">
+                        <video controls>
+                            <source src="web mobile.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video-item">
+                            <img src="abs.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigasi">
+                <button class="arrow-left disabled" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="850"><i class="fas fa-arrow-left ikon-panah"></i></button>
+                <button class="arrow-right" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="850"><i class="fas fa-arrow-right ikon-panah"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({offset:0,});
+</script>
+<script src="home.js"></script>
+</body>
+</html>

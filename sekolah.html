@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homesani.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>PSAS Pemograman WEB</title>
+</head>
+<body>
+
+    <!--navgaition menu-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Zandrai<span>Sani</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="homesani.html" class="active">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="tentang.html">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="sekolah.html">Riwayat Pendidikan</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="ekskul.html">Riwayat Organisasi</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="kontak.html">Kontak</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="portofolio.html">Portofolio</a></div>
+            </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        <div class="dropdown">
+            <div class="links">
+                <a href="homesani.html" class="active">Home</a>
+                <a href="tentang.html">About</a>
+                <a href="sekolah.html">Riwayat Pendidikan</a>
+                <a href="ekskul.html">Riwayat Organisasi</a>
+                <a href="kontak.html">Kontak</a>
+                <a href="portofolio.html">Portofolio</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pendidikan active">
+        <div class="pendidikan-container">
+            <div class="pendidikan-box">
+                <h2 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="550"><span class="bounce-text">Riwayat Pendidikan</span> Saya :</h2>
+                <button class="pendidikan-btn" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700" class="active">TK</button>
+                <button class="pendidikan-btn" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="850">SD</button>
+                <button class="pendidikan-btn" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1000">SMP</button>
+                <button class="pendidikan-btn" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1150">SMK</button>
+            </div>
+
+            <div class="pendidikan-box">
+                <div class="pendidikan-detail tk">
+                    <h3 class="heading"><span>TK</span> Kemala Bhayangkari 9 Purwokerto</h3>
+                    <div class="socialpendidikanmap-links">
+                        <a href="https://www.google.co.id/maps/place/TK+Kemala+Bhayangkari+09+Purwokerto/@-7.4221431,109.2372211,17z/data=!3m1!4b1!4m6!3m5!1s0x2e655ff7d9f5ab43:0x981ba9a0d0e4a820!8m2!3d-7.4221431!4d109.239796!16s%2Fg%2F11sbs80mdw?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D" target="_blank" ><i class="fas fa-map-marker-alt location-icon"></i></a>
+                        <p class="desc">Jl. Jend. Gatot Subroto No.79, RT.009/RW.006, Kranji, Kec. Purwokerto Timur, Kab. Banyumas, Prov. Jawa Tengah</p>
+                    </div>
+                    <div class="socialpendidikanig-links">
+                        <a href="https://www.instagram.com/tkkemalabhayangkari9pwt/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                        <p class="desc">Instagram</p>
+                    </div>
+                    <div class="socialpendidikanbio-links">
+                        <a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/2BC9501A-9A9E-4489-9477-A78B056B758B" target="_blank" ><i class="fas fa-school school-icon"></i></a>
+                        <p class="desc">Biodata Sekolah</p>
+                    </div>
+                </div>
+
+                <div class="pendidikan-detail sd">
+                    <h3 class="heading"><span>MI</span> Diponegoro 1 Purwokerto</h3>
+                    <div class="socialpendidikanmap-links">
+                        <a href="https://www.google.co.id/maps/place/MI+Diponegoro+1/@-7.4204629,109.241778,17.34z/data=!4m6!3m5!1s0x2e655e8c40557489:0xc684e1d5d7269f22!8m2!3d-7.4205073!4d109.2432994!16s%2Fg%2F11g6b8t1t0?hl=id&entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D" target="_blank" ><i class="fas fa-map-marker-alt location-icon"></i></a>
+                        <p class="desc">Jl. Overste Isdiman Gg. III, Kebondalem, Purwokerto Lor, Kec. Purwokerto Timur, Kab. Banyumas, Prov. Jawa Tengah</p>
+                    </div>
+                    <div class="socialpendidikanig-links">
+                        <a href="https://www.instagram.com/midiponegoro1/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                        <p class="desc">Instagram</p>
+                    </div>
+                    <div class="socialpendidikanyt-links">
+                        <a href="https://www.youtube.com/@midiponegoro1purwokertolor548" target="_blank" ><i class="fab fa-youtube youtube-icon"></i></a>
+                        <p class="desc">YouTube</p>
+                    </div>
+                    <div class="socialpendidikanbio-links">
+                        <a href="https://data.sekolah-kita.net/sekolah/MIS%20DIPONEGORO%20I%20PURWOKERTO%20LOR_66538" target="_blank" ><i class="fas fa-school school-icon"></i></a>
+                        <p class="desc">Biodata Sekolah</p>
+                    </div>
+                </div>
+
+                <div class="pendidikan-detail smp">
+                    <h3 class="heading"><span>SMP</span> Telkom Purwokerto</h3>
+                    <div class="socialpendidikanmap-links">
+                        <a href="https://www.google.co.id/maps/place/SMP+Telkom+Purwokerto/@-7.4349114,109.2471804,17z/data=!3m1!4b1!4m6!3m5!1s0x2e655e9cddaa6b77:0x489c8a0483066e31!8m2!3d-7.4349114!4d109.2497553!16s%2Fg%2F11c6sch_9v?hl=id&entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D" target="_blank" ><i class="fas fa-map-marker-alt location-icon"></i></a>
+                        <p class="desc">Jl. DI Panjaitan  Kec. Purwokerto Timur, Kab. Banyumas, Prov. Jawa Tengah</p>
+                    </div>
+                    <div class="socialpendidikanig-links">
+                        <a href="https://www.instagram.com/smptelkompwt.official/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                        <p class="desc">Instagram</p>
+                    </div>
+                    <div class="socialpendidikanbio-links">
+                        <a href="https://smptelkom-pwt.sch.id/" target="_blank" ><i class="fas fa-school school-icon"></i></a>
+                        <p class="desc">Biodata Sekolah</p>
+                    </div>
+                </div>
+
+                <div class="pendidikan-detail smk">
+                    <h3 class="heading"><span>SMK</span> Negeri 1 Purwokerto</h3>
+                    <div class="socialpendidikanmap-links">
+                        <a href="https://www.google.co.id/maps/place/SMK+Negeri+1+Purwokerto/@-7.4215785,109.2547055,17z/data=!4m6!3m5!1s0x2e655e96a7e3cc79:0x6d79bcd9709b4b6!8m2!3d-7.4216156!4d109.2544097!16s%2Fg%2F11h11d_b_?hl=id&entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D" target="_blank" ><i class="fas fa-map-marker-alt location-icon"></i></a>
+                        <p class="desc">Jl. DR. Soeparno No.29, Purwokerto Wetan, Kec. Purwokerto Timur, Kab. Banyumas, Prov. Jawa Tengah</p>
+                    </div>
+                    <div class="socialpendidikanig-links">
+                        <a href="https://www.instagram.com/smknegeri1purwokerto/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                        <p class="desc">Instagram</p>
+                    </div>
+                    <div class="socialpendidikanbio-links">
+                        <a href="https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/589F747B-1A7E-497C-932F-9DE7ADD47D97" target="_blank" ><i class="fas fa-school school-icon"></i></a>
+                        <p class="desc">Biodata Sekolah</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0,});
+    </script>
+    <script src="home.js"></script>
+</body>
+</html>
